@@ -4,13 +4,13 @@ import ReactDOMServer from 'react-dom/server'
 class MyComponet extends React.Component {
 	render() {
 		return(
-			<div>{this.props.myProp}</div>
+			<div>{this.props.newProp}</div>
 		);
 	}
 }
 
 console.log(
 	ReactDOMServer.renderToString(
-		<MyComponet myProp="My prop value" />
+		<MyComponet newProp="My New new Prop"/>
 	)
 )  

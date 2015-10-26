@@ -33,7 +33,7 @@ var MyComponet = (function (_React$Component) {
 			return _react2['default'].createElement(
 				'div',
 				null,
-				this.props.myProp
+				this.props.newProp
 			);
 		}
 	}]);
@@ -41,4 +41,4 @@ var MyComponet = (function (_React$Component) {
 	return MyComponet;
 })(_react2['default'].Component);
 
-console.log(_reactDomServer2['default'].renderToString(_react2['default'].createElement(MyComponet, { myProp: 'My prop value' })));
+console.log(_reactDomServer2['default'].renderToString(_react2['default'].createElement(MyComponet, { newProp: 'My New new Prop' })));

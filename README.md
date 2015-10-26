@@ -1,8 +1,7 @@
 # node-react
-Creating a Node/React project from Zero to One
+##Creating a Node/React project from Zero to One
 
-Para build com babel automático a cada mudança, basta executar o comando:
-
+To compile the `index.js` file every time that you change it, use the `babel-watch` command:
 ```
 $ npm run babel-watch
 ```

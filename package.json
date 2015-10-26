@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "babel-watch": "node_modules/.bin/babel src/index.js --watch --out-file src/dochao.js"
+    "babel-watch": "node_modules/.bin/babel src/index.js --watch --out-file dest/dochao.js"
   },
   "repository": {
     "type": "git",

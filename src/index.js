@@ -11,6 +11,6 @@ class MyComponet extends React.Component {
 
 console.log(
 	ReactDOMServer.renderToString(
-		<MyComponet newProp="My New new Prop"/>
+		<MyComponet newProp="My Prop Value"/>
 	)
 )  
